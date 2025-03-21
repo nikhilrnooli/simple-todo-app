@@ -13,7 +13,7 @@
             secondGrandChild.innerHTML = description;
             const thirdGrandChild = document.createElement("button");
             thirdGrandChild.innerHTML = "Mark as done"
-            thirdGrandChild.setAttribute("onclick", `markasDone($id)`);
+            thirdGrandChild.setAttribute("onclick", `markasDone(${id})`);
             child.appendChild(firstGrandChild);
             child.appendChild(secondGrandChild);
             child.appendChild(thirdGrandChild);
